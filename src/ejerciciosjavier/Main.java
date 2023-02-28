@@ -7,8 +7,7 @@ import java.util.Arrays;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
 		Estudiante estudiante1 = new Estudiante("17.267.806-8", "Juanito", LocalDate.of(1989, 8, 12),
 				new ArrayList<String>(Arrays.asList("mal alumno", "buen alumno")), new float[] {5.5f, 6.0f, 1.2f, 4.5f, 4.0f});
 		Estudiante estudiante2 = new Estudiante("18.467.804-8", "Pepito", LocalDate.of(1999, 7, 14),
